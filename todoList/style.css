@@ -1,0 +1,80 @@
+body{
+    height: 100%;
+    background: rgb(85, 135, 161);
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+div{
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 10px rgba(0,0,0,0.2);
+}
+ul{
+    padding: 0;
+}
+li{
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+p{
+    display: inline;
+    max-width: 578px;
+}
+.sendButton{
+    height: 25px;
+    background: white;
+    outline: none;
+    color: rgb(88, 174, 221);
+    border: 1px solid rgb(88, 174, 221);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sendButton:hover{
+    background-color: rgb(88, 174, 221) ;
+    color: white;
+    transition: all 0.3s;
+
+}
+.warning{
+    margin-top: 5px;
+    color: red;
+    font-size: 15px;
+    display: block;
+}
+.remover{
+    color: red;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 2px;
+    background-color: white;
+    height: 25px;
+    float: right;
+    align-items: end;
+}
+.content{
+    background-color: rgb(231, 231, 231);
+}
+.selected{
+    background-color: rgb(170, 15, 15);
+    color: white;
+    transition: all 0.8s;
+    text-decoration: line-through;
+}
+.header{
+    text-align: center;
+}
